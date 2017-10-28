@@ -15,8 +15,26 @@
     <h3>Stats</h3>
     <p></p>
 
+    <h4>Attributes</h4>
+    <p></p>
+
+    <h5>Brawn</h5>
+    <p></p>
+
+    <h5>Speed</h5>
+    <p></p>
+
+    <h5>Guts</h5>
+    <p></p>
+
+    <h5>Wits</h5>
+    <p></p>
+
     <h4>Hit Points</h4>
-    <p>Your total number of hit points is equal to your level plus </p>
+    <p>Your maximum number of hit points is equal to your level plus your Brawn and Guts. If your hit points become equal to or lowet than zero, you lose consciousness.</p>
+
+    <h5>Hit Point Floor</h5>
+    <p>Your hit point floor starts out at as your hit point maximum. If you lose hit points and your new amount of hit points is lower than your hit point floor, your hit point floor changes to your new amount of hit points. If your hit point ever becomes equal to or lower than the negative of your maximum hit points, you die.</p>
 
     <h4>Skills</h4>
     <p></p>
@@ -24,26 +42,34 @@
     <h5>Stealth</h5>
     <p></p>
 
-    <h3>Actions</h3>
+    <h3>Actions and Reactions</h3>
 
-    <h4>Attack</h4>
+    <h4>Actions</h4>
+
+    <h5>Attack</h5>
     <p></p>
 
-    <h4>Charge</h4>
+    <h5>Charge</h5>
     <p></p>
 
-    <h4>Move</h4>
+    <h5>Move</h5>
     <p>Move a number of units up to your movement.</p>
 
-    <h4>Dash</h4>
+    <h5>Dash</h5>
+    <p>Pay 1 hit point to move a number of units up to your movement plus 1d6. You may instead pay 3 hit points to change the die to a d8; 6 for d10; 10 for d12.</p>
+
+    <h5>Rest</h5>
+    <p>Restore 1 hit point. Cannot restore you to a higher amount of hit points than your hit point floor plus your Guts.</p>
+
+    <h4>Reactions</h4>
+
+    <h5>Attack of Opportunity</h5>
     <p></p>
 
-    <h3>Reactions</h3>
-
-    <h4>Attack of Opportunity</h4>
+    <h5>Dodge</h5>
     <p></p>
 
-    <h4>Dodge</h4>
+    <h5>Parry</h5>
     <p></p>
 
     <h3>Classes</h3>
@@ -84,5 +110,76 @@
 
     <h4><a href="classes/wizard.html">Wizard</a></h4>
     <p>magic through arcane, occult, and weird rituals</p>
+
+    <h3>Resting</h3>
+    <p></p>
+
+    <h4>Short Rest</h4>
+    <p>Your hit point floor is increased by half of your maximum hit points, and you use the Rest action as much as is allowed.</p>
+
+    <h4>Long Rest</h4>
+    <p>Your hit point floor and current hit points are set to your maximum hit points.</p>
+
+    <h3>Wounds</h3>
+
+    <h4>Disabled Wounds</h4>
+    <p></p>
+
+    <h4>Level 1 Wounds</h4>
+    <table>
+        <tr>Lesser Hemorrhage - PS</tr>
+        <tr>Concussion - B</tr>
+        <tr>Bruising - B</tr>
+        <tr>Level 2 Wound</tr>
+    </table>
+
+    <h4>Level 2 Wounds</h4>
+    <table>
+        <tr>Hemorrhage - S</tr>
+        <tr>Knockout - B</tr>
+        <tr>Broken Bone - B</tr>
+        <tr>Level 3 Wound</tr>
+    </table>
+
+    <h4>Level 3 Wounds</h4>
+    <table>
+        <tr>Greater Hemorrhage - PS</tr>
+        <tr>Cerebral Hemorrhage - B</tr>
+        <tr>Amputation - S</tr>
+        <tr>Additional Wound</tr>
+    </table>
+
+    <h4>Hemorrhage</h4>
+
+    <h5>Lesser Hemorrhage</h5>
+    <p>At the start of their turn, a creature with a flesh wound must make a Guts check against the wound's level. On a failure, the creature's current hit points and hit point floor are reduced by 1. On a fumble, the level of the wound is increased by 1. On a critical, the wound is disabled.</p>
+
+    <h5>Hemorrhage</h5>
+    <p>At the start of their turn, the creature's current hit points and hit point floor are reduced by half the level of the wound.</p>
+
+    <h5>Greater Hemorrhage</h5>
+    <p>At the start of their turn, the creature's current hit points and hit point floor are reduced by the level of the wound.</p>
+
+    <h4>Head Trauma</h4>
+
+    <h5>Concussion</h5>
+    <p></p>
+
+    <h5>Knockout</h5>
+    <p></p>
+
+    <h5>Cerebral Hemorrhage</h5>
+    <p></p>
+
+    <h4>Other Body Trauma</h4>
+
+    <h5>Bruising</h5>
+    <p></p>
+
+    <h5>Broken Bone</h5>
+    <p></p>
+
+    <h5>Amputation</h5>
+    <p></p>
 </body>
 </html>
