@@ -4,12 +4,13 @@
     "\\classes",
     "\\deities",
     "\\entities",
+    "\\equipment",
     "\\orders",
     "\\spells",
     "\\spells\\arcane",
     "\\spells\\innate",
     "\\spells\\nature"
   ],
-  "SelectedNode": "\\classes\\barbarian.html",
+  "SelectedNode": "\\gaul.html",
   "PreviewInSolutionExplorer": false
 }
