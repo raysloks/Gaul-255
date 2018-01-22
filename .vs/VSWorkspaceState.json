@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\classes",
-    "\\deities",
-    "\\entities",
-    "\\equipment",
-    "\\orders",
-    "\\spells",
-    "\\spells\\arcane",
-    "\\spells\\innate",
-    "\\spells\\nature"
+    "\\Feats",
+    "\\Magic"
   ],
-  "SelectedNode": "\\rules.html",
+  "SelectedNode": "\\Magic",
   "PreviewInSolutionExplorer": false
 }
