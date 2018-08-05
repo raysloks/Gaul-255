@@ -2,12 +2,12 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Gaul 255</title>
+    <title>Rules</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <h1>Gaul 255</h1>
+    <h1>Rules</h1>
 
     <h2>Character Creation</h2>
 
@@ -58,14 +58,19 @@
         Make an attack with one of your weapons against a target within range.
     </p>
 
+    <h5>Critical Damage</h5>
+    <p>
+        When dealing critical damage, roll twice the number of dice. Any dice that come up as their maximum number explode, adding and rolling another die of the same type. Dice smaller than a d4 cannot explode.
+    </p>
+
     <h5>Melee</h5>
     <p>
-        You roll your weapon's damage dice, exploding. This is your attack score. The target then chooses one of the following ways to generate their defense score.
+        You roll a d20, adding your Strength, Dexterity, and weapon score. This is your attack score. If the score is larger than the target's defense score, you deal damage to the target. If the score is smaller than or equal to the target's defense score, the target deals damage to you. If the rolled number is 20, you automatically deal critical damage to the target. If the rolled number is 1, the target automatically deals critical damage to you.
     </p>
 
     <h6>Parry</h6>
     <p>
-        The target chooses one of their weapons to parry your attack with. The target rolls that weapon's damage dice. This is the target's defense score. If the target's defense score is less than your attack score, the target is dealt damage equal to the difference. If the target's defense score is greater than your attack score, you are dealt damage equal to the difference.
+        The target chooses one of their weapons to parry your attack with. Their defense score is equal to 10 plus their Strength, Dexterity, and weapon score.
     </p>
 
     <h6>Dodge</h6>
@@ -73,28 +78,22 @@
         If the attack is an attack of opportunity, the target must choose this reaction. If not, the target must be able to use the Move action to choose this reaction.
     </p>
     <p>
-        The target's defense score is equal to their Agility. If the target's defense score is less than your attack score, the target is dealt damage equal to the difference. If the attack was not an attack of opportunity, the target must then use the Move action. It may do so without provoking an attack of opportunity from you.
+        The target chooses to dodge the attack. Their defense score is equal to 10 plus their Agility and their movement. If the attack was not an attack of opportunity, the target must then use the Move action, moving at least one space. It may do so without provoking an attack of opportunity from you.
     </p>
 
     <h6>Block</h6>
     <p>
-        The target chooses one of their shields to block your attack with. Your attack score is dealt as damage to that shield.
+        The target chooses one of their shields to block your attack with. Their defense score is equal to 10 plus their Strength, Dexterity, and weapon score, but discounting the bonus from the shield. If your attack score is larger than the target's defense score, you deal damage to the shield. If the rolled number is 20, you may choose to either deal critical damage to the shield, or deal damage to the target. If the rolled number is 1, the target deals damage to you.
     </p>
 
     <h5>Ranged</h5>
     <p>
-        You roll your weapon's damage dice, exploding. This is your attack score. Reduce your attack score based on the distance between you and your target and your weapon's ranges.
+        
     </p>
-    <table>
-        <tr><td>-2</td></tr>
-        <tr><td>-5</td></tr>
-        <tr><td>-10</td></tr>
-        <tr><td>-20</td></tr>
-    </table>
 
     <h4>Move</h4>
     <p>
-        Move a number of meters less than or equal to your movement. If you are threatened by more than one creature, you provoke an attack of opportunity from all creatures threatening you. If you leave a creature's threat range, you provoke an attack of opportunity from that creature. You can only provoke one attack of opportunity from each creature per Move action.
+        Move a number of spaces less than or equal to your movement. If you are threatened by more than one creature, you provoke an attack of opportunity from all creatures threatening you. If you leave a creature's threat range, you provoke an attack of opportunity from that creature. You can only provoke one attack of opportunity from each creature per Move action.
     </p>
 
     <h4>Rest</h4>
